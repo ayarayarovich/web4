@@ -1,0 +1,41 @@
+:root {
+    --my-darkest-blue: #0b0742;
+    --my-dark-blue: #120c6e;
+    --my-blue: #5e72eb;
+    --my-red: #ff9190;
+    --my-yellow: #fdc094;
+}
+
+#header {
+    background-color: var(--my-yellow);
+}
+
+#header .logo {
+    height: 3rem;
+    width: min-content;
+}
+
+#table .team-logo {
+    height: 3em;
+}
+
+.side-bg {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#form .side-bg {
+    background-image: url("/static/trae.png");
+}
+
+#links-list .side-bg {
+    background-image: url("/static/booker.png");
+}
+
+#footer {
+    background-color: var(--my-yellow);
+}
+
+
+
